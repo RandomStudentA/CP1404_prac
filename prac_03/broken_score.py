@@ -1,6 +1,6 @@
-# When score is smaller than 0 or greater than 100 it prompts you an error
+import random
 def main():
-    score = float(input("Enter score: "))
+    score = random.randrange(-100, 100)
     print(score_status(score))
 
 

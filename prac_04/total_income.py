@@ -7,6 +7,7 @@ def main():
     for month in range(1, number_of_months + 1):
         income = float(input("Enter income for month " + str(month) + ": "))
         incomes.append(income)
+    # calls the new function, it prints the message since it was written in the function
     report_printing(incomes)
 
 

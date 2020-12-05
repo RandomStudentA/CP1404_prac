@@ -32,4 +32,5 @@ print(numbers)
 
 # if the number meets the condition of it if statement it will be printed
 large_numbers = [numbers for numbers in numbers if numbers > 9]
+# above defined large_number so print large_numbers instead of numbers
 print(large_numbers)

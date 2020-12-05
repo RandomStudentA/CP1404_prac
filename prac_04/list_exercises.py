@@ -15,7 +15,7 @@ print("The average of the numbers is " + str((sum(numbers) / 5)))
 usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn',
              'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
 enter_username = (input('Enter User name: '))
-# When the entered username matches completely with one of the string saved it will print access granted
+# When entered username matches completely with one of the string in usernames it will print access granted
 if enter_username in (usernames):
     print("Access granted")
 else:
